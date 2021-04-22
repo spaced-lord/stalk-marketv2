@@ -3,9 +3,21 @@ body {
 
 }
 
+.brand-logo {
+    height: 300px;
+    width: 400px;
+}
+
 .nav-wrapper {
     margin-bottom: 5rem;
 }
+
+.address {
+    font-family: 'Orelega One', cursive;
+    font-size: 18px;
+    color: black;
+}
+
 .links {
     font-family: 'Orelega One', cursive;
     font-size: 36px;
@@ -17,7 +29,13 @@ body {
     font-family: 'Orelega One', cursive;
 }
 
-.about {
+.philo {
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+.location {
     margin-top: 5rem;
     margin-left: 36%;
     font-family: 'Orelega One', cursive;
