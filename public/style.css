@@ -4,12 +4,12 @@ body {
 }
 
 .brand-logo {
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
 }
 
-.nav-wrapper {
-    margin-bottom: 5rem;
+.nav-container {
+   
 }
 
 .address {
@@ -23,6 +23,18 @@ body {
     font-size: 36px;
     color: black;
 }
+
+/* #home {
+    padding-right: 5rem;
+}
+
+#about {
+
+}
+
+#contact {
+    padding-left: 5rem;
+} */
 
 .feed {
     margin-top: 5rem;
@@ -46,5 +58,7 @@ body {
     margin-top: 5rem;
     font-family: 'Orelega One', cursive;
 }
+
+
 
 
