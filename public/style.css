@@ -1,64 +1,84 @@
 body {
-    background-color: white;
-
+  background-color: white;
 }
 
 .brand-logo {
-    height: 400px;
-    width: 500px;
-}
-
-.nav-container {
-   
+  height: 400px;
+  width: 500px;
 }
 
 .address {
-    font-family: 'Orelega One', cursive;
-    font-size: 18px;
-    color: black;
+  font-family: "Orelega One", cursive;
+  font-size: 18px;
+  color: black;
 }
 
 .links {
-    font-family: 'Orelega One', cursive;
-    font-size: 36px;
-    color: black;
+  font-family: "Orelega One", cursive;
+  font-size: 36px;
 }
 
-/* #home {
-    padding-right: 5rem;
+@media only screen and (maxwidth: 497px) {
+  .links {
+    text-align: center;
+    font-size: 12px;
+  }
 }
 
-#about {
+@media only screen and (maxwidth: 300px) {
+  .links {
+    text-align: center;
+    font-size: 8px;
+  }
+}
 
+#home {
+  padding-right: 5rem;
 }
 
 #contact {
-    padding-left: 5rem;
-} */
-
-.feed {
-    margin-top: 5rem;
-    font-family: 'Orelega One', cursive;
+  padding-left: 5rem;
 }
 
-.philo {
-    height: 400px;
-    width: 400px;
-    float: right;
+.feed {
+  margin-top: 5rem;
+  font-family: "Orelega One", cursive;
+}
+
+@media only screen and (maxwidth: 768px) {
+  .feed {
+    width: 100%;
+  }
 }
 
 .location {
-    margin-top: 5rem;
-    margin-left: 36%;
-    font-family: 'Orelega One', cursive;
-    font-size: 24px;
+  margin-top: 5rem;
+  margin-left: 36%;
+  font-size: 24px;
 }
 
 .contact {
-    margin-top: 5rem;
-    font-family: 'Orelega One', cursive;
+  margin-top: 5rem;
+  font-family: "Orelega One", cursive;
+}
+h1 {
+  font-family: "Orelega One", cursive;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
+h3 {
+  font-family: "Orelega One", cursive;
+  text-align: center;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
 
+#link-btns {
+  margin-bottom: 10rem;
+}
 
-
+#contact-form {
+  padding: 5rem;
+}

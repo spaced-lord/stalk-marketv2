@@ -13,43 +13,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
-    <div class="nav-wrapper valign-wrapper">
-        <div class="container center-align z-depth-2">
+    <div class="nav-wrapper">
+        <div class="nav-container container center" id="nav">
           <div>
             <img class="brand-logo" src="./images/logo.jpeg" alt="logo">
           </div>
+          <span class="address"><i class="material-icons">location_on</i>5505 W 20th Ave</span>
           <div class="divider "></div>
-          <div class="links center-align hide-on-small-only">
+          <div class="links center-align">
             <ul>
-              <a href="./index.html" class="black-text">home</a>
-              <a href="./about.html" class="black-text">about</a>
-              <a href="./contact.html" class="black-text">contact us</a>
+              <a href="./index.html" id="home" class="black-text">home</a>
+              <a href="./about.html" id="about" class="black-text">about</a>
+              <a href="./contact.html" id="contact" class="black-text">contact</a>
             </ul>
           </div>
         </div>
-    </div>
+      </div>
 <div class="container">
-    <div class="row">
-        <form class="col s12" method="post" action="mailto:stalkmarketco@gmail.com">
-            <div class="row">
-                <div class="input-field col s6">
-                    <input id="first_name" type="text" class="validate">
-                    <label for="first_name">First Name</label>
-                </div>
-                <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                </div>
-            </div>
-            <input class="message">
-            <button class="btn waves-effect waves-light"><i class="material-icons">send</i>send</button>
-        </form>
+    <div class="col s12 m6">
+        <div class="row center-align">
+        <h1 class="black-text center-align">Let's Connect!</h1>
+        <h3 class="black-text center-align">Below are links to all of our social media. Please reach out with any questions regarding plant availability or care questions.</h3>
+        <div class="container" id="link-btns">
+            <a class="btn green waves-effect waves-light" href="https://instagram.com/stalkmarketco"><i class="material-icons right">photo_camera</i>instagram</a>
+            <a class="btn green waves-effect waves-light" href="https://facebook.com/stalkmarketco"><i class="material-icons right">face</i>facebook</a>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="contact-form">
+    <div class="col s12 m6">
+        <div class="row">
+            <form method="POST" name="contact-form" action="mailto:gracepnoe@gmail.com">
+                <label for="name">Name: </label>
+                <input type="text" name="name" value="">
+                <label for="email">Email:  </label>
+                <input type="text" name="email" value="">
+                <label for="message">Message:</label>
+                <textarea name="message" rows=20 cols=30></textarea>
+                <a class="btn green waves-effect waves-light" type="submit" value="" name="submit" action="sendto:gracepnoe@gmail.com"><i class="material-icons right">send</i>send</a>
+            </form>
+        </div>
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
